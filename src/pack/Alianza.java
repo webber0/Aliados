@@ -5,8 +5,14 @@ public class Alianza {
 		int i=0,j=0;
 		int l1=0,l2=0;
 		Arrays.sort(vecino);
-		//recorrerVector(vecino);
 		Vecino[] filtrado=filtrar(vecino,lider);
+		for(i=0;i<filtrado.length;i++) {//para cada elemento del vector
+			for(j=0;j<filtrado.length;j++) {
+				if(i!=j) {
+					//Aca va todo el tratamiento de los vecinos...
+				}
+			}
+		}
 		recorrerVector(filtrado);
 		mirarAliaznas(lider);
 	}
